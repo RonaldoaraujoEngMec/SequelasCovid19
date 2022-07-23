@@ -1,17 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: poppinsregular;
     background: white;
     font-size: 15px;
-    position: absolute;
+}
+
+header {
+    background-color: #0abab5;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+img {
+    width: 75px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 30px;
+}
+
+h1 {
+    font-weight: 200;
 }
 
 .box {
-    left: 50%;
+    padding: 5px;
 }
 
 fieldset {
     border: 3px solid #0abab5;
-    ;
+    padding: 10px;
 }
 
 legend {
