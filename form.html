@@ -7,15 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styleform.css">
     <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/mediaform.css">
     <title>Formulário | Sequelas COVID-19</title>
 </head>
+
+<header>
+    <div id="title">
+        <h1>Sequêlas</h1>
+        <h1>COVID-19</h1>
+    </div>
+    <article>
+        <img src="./components/images/covid19-Branco.png" alt="covid19">
+    </article>
+</header>
 
 <body>
     <div class="box">
         <form action="">
             <fieldset>
-                <Legend><b>Formulário sequelas COVID-19</b></Legend>
-                <br>
                 <div class="inputbox">
                     <label for="data_nascimento"><b>Qual a sua data de nascimento?</b></label>
                     <p></p>
@@ -115,6 +124,37 @@
                     <Input type="radio" name="radio_recuperado" id="radio_recuperado_concordo_totalmente"
                         value="concordo_totalmentee" class="inputformradio" required>
                     <label for="radio_recuperado_concordo_totalmente">Concordo totalmente</label>
+                </div>
+                <br>
+                <div>
+                    <p><b>Você foi teve acesso a vacina da COVID-19?</b></p>
+                    <Input type="radio" name="radio_readmitido" id="radio_readmitido_sim" value="sim"
+                        class="inputformradio" required>
+                    <label for="radio_readmitido_sim">Sim</label>
+                    <Input type="radio" name="radio_readmitido" id="radio_readmitido_nao" value="nao"
+                        class="inputformradio" required>
+                    <label for="radio_readmitido_nao">Não</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="hospital_internado" id="hospital_internado" class="inputform" required>
+                    <label for="hospital_internado" class="labelinput">Qual o nome da vacina?</label>
+                </div>
+                <br>
+                <div>
+                    <p><b>Quando você contraiu a COVID-19 já tinha recebido a primeira dose da vacina?</b></p>
+                    <Input type="radio" name="radio_readmitido" id="radio_readmitido_sim" value="sim"
+                        class="inputformradio" required>
+                    <label for="radio_readmitido_sim">Sim</label>
+                    <Input type="radio" name="radio_readmitido" id="radio_readmitido_nao" value="nao"
+                        class="inputformradio" required>
+                    <label for="radio_readmitido_nao">Não</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="hospital_internado" id="hospital_internado" class="inputform" required>
+                    <label for="hospital_internado" class="labelinput">A quanto tempo da primeira dose você contraiu a
+                        COVID-19?</label>
                 </div>
                 <br><br>
                 <div>
